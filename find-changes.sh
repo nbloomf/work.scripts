@@ -5,6 +5,7 @@ documents/nbloomf.md
 documents/nbloomf.github.io
 code/feivel
 code/munge
+code/work.scripts
 fvl.lib/kreb-scout"
 
 changes=0
