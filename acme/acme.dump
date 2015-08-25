@@ -1,0 +1,11 @@
+/home/nathan
+/usr/local/bin/plan9port/font/pelm/unicode.9.font
+/usr/local/bin/plan9port/font/lucm/unicode.9.font
+  0.0000000  35.6445313
+w 9 Newcol Kill Putall Dump Exit : |i+ |i- : win
+c          0 New Cut Paste Snarf Sort Zerox Delcol 
+c          1 New Cut Paste Snarf Sort Zerox Delcol 
+f          0           1           0           0   2.8776978 
+          1          45          47           0           0 /home/nathan/code/work.scripts/acme/acme.tags Del Snarf | Look 
+f          1           2           0           0   2.8776978 
+          2          47         118           1           0 /home/nathan/code/feivel/ Del Snarf Get | Look 
