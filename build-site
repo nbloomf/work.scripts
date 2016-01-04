@@ -1,9 +1,11 @@
 #!/bin/bash
 
 # Copy frozen PDFs to nbloomf.md
-cp -r $HOME/documents/classes/ca/freeze/*       $HOME/documents/nbloomf.md/pdf/classes/ca
-cp -r $HOME/documents/classes/abstract/freeze/* $HOME/documents/nbloomf.md/pdf/classes/aa
-cp -r $HOME/documents/classes/geom/freeze/*     $HOME/documents/nbloomf.md/pdf/classes/geom
+cp -r $HOME/documents/classes/ca/pdf/*       $HOME/documents/nbloomf.md/pdf/classes/ca
+cp -r $HOME/documents/classes/abstract/pdf/* $HOME/documents/nbloomf.md/pdf/classes/aa
+cp -r $HOME/documents/classes/geom/pdf/*     $HOME/documents/nbloomf.md/pdf/classes/geom
+cp -r $HOME/documents/classes/calc/pdf/*     $HOME/documents/nbloomf.md/pdf/classes/calc
+cp -r $HOME/documents/classes/stat/pdf/*     $HOME/documents/nbloomf.md/pdf/classes/stat
 
 # Build nbloomf.github.io and copy files
 (cd $HOME/documents/nbloomf.md; make site && make move)
