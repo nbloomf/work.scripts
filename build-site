@@ -11,4 +11,4 @@ cp -r $HOME/documents/classes/prfs/pdf/* $HOME/documents/nbloomf.md/pdf/classes/
 # Build nbloomf.github.io and copy files
 (cd $HOME/documents/nbloomf.md; make site && make move)
 
-echo -e "\033[0;32mSuccessfully built nbloomf.github.io.\033[0m"
+echo "Successfully built nbloomf.github.io" | doppler lightgreen
